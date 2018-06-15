@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <title> Crystal Collector! </title>
+    <link rel ="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+</head>
+
+<body>
+        <h1> Crystals Collector!</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="main-container" div class="container">
+<div id="main-section" div class="inst-section">
+    <section class="instructions">
+        <p>
+            You will be given a random number at the start of the game.
+            There will be four crystal below. By clicking on a crystal you will add a specific
+            amount of points to your total score.</p>
+           <p> You win the game by attaching your total score to random number, you lose the game
+            if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.
+            Each time the game starts, the game will change the values of each crystal.
+        </p>
+    </section>
+</div>
+
+<div id="win-lose-number-ratio" div class="numbers">
+    <div class="row">
+        <div class="column">
+            <section id="numbergenerator" class="randnum">
+                
+            40
+            </section>
+        </div>
+        <div class="column">
+        <section id="scoreboard">
+            <ul>
+                <li>Wins:<span id="win">0</span></li>
+                <li>Loss:<span id="lose">0</span></li>
+            </ul> 
+        </section>
+        </div>
+    </div>
+</div>
+<br>
+<div id="crystals" div class="crystal-images">
+    
+   <button id="diamond"><span class="icons"><img src="assets/images/diamond.png" width="100" height="100"  class="auth-image"></span></button>   
+    <button id="gemstone"><span class="icons"><img src="assets/images/Gemstone.png" width="100" height="100" class="auth-image"></span></button>
+   <button id="emerald" ><span class="icons"><img src="assets/images/Emerald.png" width="100" height="100" class="auth-image"></span></button>
+   <button id="ruby"><span class="icons"><img src="assets/images/ruby.png"  width="100" height="100" class="auth-image"></span></button>
+
+
+
+
+</div>
+<br>
+
+
+<div id="total-score">
+    <section class="score">
+    Your total score is:
+    </section>
+</div>
+<br>
+<div id="crystal-value">
+    <section id= "roundscore" class="value">
+0
+        </section>
+</div>
+</div>
+
+<script src="./assets/javascript/game.js"></script>
+
+</body>
