@@ -6,7 +6,7 @@ You win the game by attaching your total score to random number, you lose the ga
 The value of each crystal is hidden from you until you click on it. Each time the game starts, the game will change the values of each crystal.
 
 # Link:
-https://deeidowu.github.io/unit-4-game/
+https://deeidowu.github.io/Crystal-Collector-Game/
 
 # Screenshot:
 
